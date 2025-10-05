@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -23,5 +24,10 @@ public class UIManager : MonoBehaviour
     public void ButtonClose(GameObject panel)
     {
         panel.SetActive(false);
+    }
+
+    public void ButtonReturn()
+    {
+        SceneManager.LoadScene("Jogo");
     }
 }

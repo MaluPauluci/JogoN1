@@ -13,8 +13,8 @@ public class Coins : MonoBehaviour
     private void Update()
     {
        if (coins >= 4)
-        {
+       {
             SceneManager.LoadScene("Ganhou");
-        }
+       }
     }
 }
